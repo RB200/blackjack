@@ -1,0 +1,40 @@
+<head>
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyD4HnG4mSmfIN8HBCoEdl4QyvkhoYLLR48",
+            authDomain: "blackjack-d9090.firebaseapp.com",
+            databaseURL: "https://blackjack-d9090-default-rtdb.firebaseio.com",
+            projectId: "blackjack-d9090",
+            storageBucket: "blackjack-d9090.appspot.com",
+            messagingSenderId: "512457842152",
+            appId: "1:512457842152:web:a1cd810a1990b94a72d85d"
+        };
+        firebase.initializeApp(firebaseConfig)
+    </script>
+</head>
+<body>
+    <div id="main">
+        <div id="Modal" class="modal">
+        
+            <div class="modal-content">
+                <div class="modalContent">
+                    <h1 id='name'>Please input your name</h1>
+                </div>
+                <div class="modalInput">
+                    <input type="text" id="name-input" placeholder="Name" autofocus/>
+                </div>
+                <div class="modalSubmitButton">
+                    
+                </div>
+                
+            </div>
+    
+            </div>
+    </div>
+    <script src="./js/index.js"></script>
+    
+    <link rel="stylesheet" href="./index.css">
+</body>
