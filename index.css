@@ -10,7 +10,7 @@ body #main #card-container, #card-container2{
     width:1000px;
     justify-content:center;
     background-color: cadetblue;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 2px 2px 2px;
 }
 
 body #main #card-background-container{
@@ -89,3 +89,7 @@ body{
     text-decoration: none;
     cursor: pointer;
     }
+
+#card{
+    box-shadow: 1px 1px 1px;
+}
